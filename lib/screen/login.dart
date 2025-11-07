@@ -47,7 +47,7 @@ class MyLogin extends StatelessWidget {
               hintText: 'Masukkan Email Anda',
             ),
           ),
-           SizedBox(height: 20),
+          SizedBox(height: 20),
 
           TextField(
             keyboardType: TextInputType.visiblePassword,
@@ -66,7 +66,7 @@ class MyLogin extends StatelessWidget {
               ),
             ),
           ),
-           SizedBox(height: 10),
+          SizedBox(height: 10),
           Align(
             alignment: Alignment.centerRight,
             child: TextButton(
@@ -77,7 +77,7 @@ class MyLogin extends StatelessWidget {
               ),
             ),
           ),
-           SizedBox(height: 30),
+          SizedBox(height: 30),
           Container(
             height: 40,
             width: 400,
@@ -86,6 +86,17 @@ class MyLogin extends StatelessWidget {
               style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
               child: Text("Login", style: TextStyle(color: Colors.white)),
             ),
+          ),
+           SizedBox(height: 20),
+          Row(
+            children: [
+              Expanded(child: Divider(thickness: 1)),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                child: Text("OR"),
+              ),
+              Expanded(child: Divider(thickness: 1)),
+            ],
           ),
         ],
       ),

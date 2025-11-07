@@ -34,6 +34,11 @@ class Mysplashscreen1 extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
+          Text(
+            "kamu bisa liat kumpuan foto anime dan membuatnya. \n selamat berkreasi",
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 12, color: Colors.green),
+          ),
         ],
       ),
     );

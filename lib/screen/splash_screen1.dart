@@ -11,8 +11,7 @@ class Mysplashscreen1 extends StatelessWidget {
         children: [
           Text("Muhamad Ayesha Aulia",
               style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 10,
                   color: Colors.green)),
         ],
       ),

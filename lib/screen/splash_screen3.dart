@@ -21,9 +21,9 @@ class Mysplashscreen3 extends StatelessWidget {
             width: 240,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
-              color: Colors.green,
+              color: Colors.green[100],
               image: DecorationImage(
-                image: AssetImage("assets/images/gambar2.webp"),
+                image: AssetImage("assets/images/gambar4.webp"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -33,7 +33,7 @@ class Mysplashscreen3 extends StatelessWidget {
             "Hallo selamat datang di aplikasi saya",
             style: TextStyle(
               fontSize: 16,
-              color: Colors.green,
+              color: Colors.green[100],
               fontWeight: FontWeight.bold,
             ),
           ),

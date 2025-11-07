@@ -17,6 +17,19 @@ class MyLogin extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
+          SizedBox(height: 20),
+                    Container(
+            height: 120,
+            width: 120,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: Colors.grey,
+              image: DecorationImage(
+                image: AssetImage("assets/images/user.jpg"),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
         ],
       ),
     );

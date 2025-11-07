@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:muhamadayeshaaulia_1123150188_uts/screen/splash_screen2.dart';
 
 class Mysplashscreen1 extends StatelessWidget {
   const Mysplashscreen1({super.key});
@@ -83,6 +84,28 @@ class Mysplashscreen1 extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(height: 30),
+          Container(
+            child: SizedBox(
+              height: 40,
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.pushAndRemoveUntil(
+                    context,
+                    MaterialPageRoute(builder: (context) => Mysplashscreen2()),
+                    (Route<dynamic> route) => false,
+                  );
+                },
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                child: Text(
+                  "Continue",
+                  style: TextStyle(fontSize: 16.0, color: Colors.black),
+                ),
+              ),
+            ),
+          ),
+          SizedBox(height: 70),
         ],
       ),
     );

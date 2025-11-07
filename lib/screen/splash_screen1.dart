@@ -21,6 +21,7 @@ class Mysplashscreen1 extends StatelessWidget {
               color: Colors.green,
               image: DecorationImage(
                 image: AssetImage("assets/images/gambar2.webp"),
+                fit: BoxFit.cover,
               ),
             ),
           ),

@@ -25,7 +25,7 @@ class MyLogin extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.grey,
               image: DecorationImage(
-                image: AssetImage("assets/images/user.jpg"),
+                image: AssetImage("assets/images/gambar1.jpg"),
                 fit: BoxFit.cover,
               ),
             ),

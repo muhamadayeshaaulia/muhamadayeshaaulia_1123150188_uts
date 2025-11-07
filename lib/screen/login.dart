@@ -18,7 +18,7 @@ class MyLogin extends StatelessWidget {
             ),
           ),
           SizedBox(height: 20),
-                    Container(
+          Container(
             height: 120,
             width: 120,
             decoration: BoxDecoration(
@@ -30,9 +30,22 @@ class MyLogin extends StatelessWidget {
               ),
             ),
           ),
-           Text(
+          Text(
             "Silahkan login untuk melanjutkan",
             style: TextStyle(fontSize: 14.0, color: Colors.green),
+          ),
+          SizedBox(height: 20),
+          TextField(
+            keyboardType: TextInputType.emailAddress,
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              focusedBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.blue),
+              ),
+              prefixIcon: Icon(Icons.email),
+              labelText: 'Email',
+              hintText: 'Masukkan Email Anda',
+            ),
           ),
         ],
       ),
